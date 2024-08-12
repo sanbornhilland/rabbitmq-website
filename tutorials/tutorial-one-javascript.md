@@ -133,7 +133,7 @@ Lastly, we close the connection and exit:
 setTimeout(function() {
   connection.close();
   process.exit(0)
-  }, 500);
+}, 500);
 ```
 
 [Here's the whole send.js script](https://github.com/rabbitmq/rabbitmq-tutorials/blob/main/javascript-nodejs/src/send.js).
